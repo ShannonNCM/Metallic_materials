@@ -1,0 +1,36 @@
+\section{Metals and solutes}
+
+Using the diffusion database from DICE website three metals were selected along with two solutes. The way the metals were chosen was based on the solutes they had in common, for systems of only two different species. In this case, the metals chosen were: copper, platinum and titanium because there was available data for aluminum and silver as solutes for those three metals. However, as it is shown on table \ref{tab:tabla2} data for a self-diffusion system for platinum was not found, the only available data were for systems in which iron is also present. 
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{ccc}
+        Metal & Structure & Solute\\ \hline \hline
+        Cu & fcc & Al, Ag \\
+        Pt & hexagonal & Al, Ag \\
+        Ti & hexagonal & Al, Ag \\
+    \end{tabular}
+    \caption{Elements chosen for calculations []}
+    \label{tab:tabla1}
+\end{table}
+
+After establishing the metals and solutes to be used, the information related to the diffusion coefficient was obtained by indicating the solute (Ag or Al) and the metal in which it will be diffused. The information corresponding to the systems is presented in the following table:
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{ccccc}
+        System & $D_0$ ($m^2/s$) & Q (kJ/mol) & $T_{min}$ (K) & $T_{max}$ (K) \\ \hline \hline
+        Al-Al & $1,37e-5$ & $124$ & $583$ & $953$ \\
+        Al-Cu & $8,00e-6$ & $181$ & $973$ & $1348$ \\
+        Al-Pt & $1,30e-7$ & $194$ & $1373$ & $1873$\\
+        Al-Ti & $6,60e-3$ & $329$ & $930$ & $1140$\\
+        Ag-Ag & $2,70e-5$ & $182,96$ & $980$ & $1250$\\
+        Ag-Cu & $3,10e-10$ & $72$ & $498$ & $573$\\
+        Ag-Pt & $1,30e-5$ & $258$ & $1473$ & $1873$\\
+        Ag-Ti & $1,00e-4$ & $279$ & $823$ & $1073$\\
+        Cu-Cu & $1,05e-4$ & $210$ & $845$ & $1111$\\
+        Ti-Tu & $3,4e-4$ & $328$ & $1393$ & $1941$
+    \end{tabular}
+    \caption{Diffusion coefficient data for each system [\cite{kakusan}]}
+    \label{tab:tabla2}
+\end{table}

@@ -1,0 +1,77 @@
+\newpage
+\section{Diffusion coefficient}
+
+Using the data from table \ref{tab:tabla2}, the diffusion coefficient was calculated with the Arrhenius relation:
+\begin{align}
+    \label{eq:1}
+    D&=D_0 exp\left(-\dfrac{\Delta H}{RT}\right),
+\end{align}
+where $D$ is the Diffusion coefficient, $D_0$ is a pre-exponential factor, $\Delta H$ is the activation entalphy of diffusion in $k J/mol$ (which is also represented as $Q$), R is the ideal gas constant ($8,314 J/K\cdot mol$) and T is the temperature in Kelvin \cite{diff}. \\
+
+Considering that all systems have different temperature ranges (\ref{tab:tabla2}), to proceed with the calculations, a new temperature range was chosen, from $450$ to $1950$ K, so that all systems use the same temperature range and can be compared with each other. The new temperature range was used to calculate $D$ for all systems, with a sample of 100 points evenly spaced, and the parameters of $D_0$, $Q$ and $R$ using equation \eqref{eq:1}. \\
+
+The results for the diffusion coefficient are presented in figure \ref{fig:diffusion}. Figure \ref{fig:d} shows the diffusion coefficient for all systems as a function of temperature, from $450$ to $1950$K; however, because of the scale of the results, it is common to present the diffusion coefficient in a logarithmic scale, as it is shown in figure \ref{fig:lnd}, where the logarithm of the diffusion coefficient is plotted as a function of the inverse of the temperature.
+
+\begin{figure}[h]
+ \centering
+ \captionsetup{justification=centering,margin=2cm}
+  \subfloat[]{
+   \label{fig:d}
+    \includegraphics[width=0.5\textwidth]{combined/D(T).pdf}}
+  \subfloat[]{
+   \label{fig:lnd}
+    \includegraphics[width=0.5\textwidth]{combined/ln(D).pdf}}
+ \caption{a) Diffusion coefficient $D$ ($m^2/s)$ as a function of temperature $T$ (K) and b) logarithm of the diffusion coefficient $ln(D)$ as a function of the inverse of temperature $1/T$ ($K^{-1}$) [reference]}
+ \label{fig:diffusion}
+\end{figure}
+
+
+\newpage
+\subsection{Self diffusion}
+
+\begin{figure}[h]
+ \centering
+ \captionsetup{justification=centering,margin=2cm}
+  \subfloat[]{
+   \label{fig:}
+    \includegraphics[width=0.5\textwidth]{selfdiffusion/Ag_Ag_ln(D).pdf}}
+  \subfloat[]{
+   \label{fig:sigma4}
+    \includegraphics[width=0.5\textwidth]{selfdiffusion/Al_Al_ln(D).pdf}}
+ \caption{ %\ref{fig:MM_LJ_10in}}
+ }
+ \label{fig:sigmas}
+\end{figure}
+
+%\newpage
+\subsection{Solute diffusion}
+
+\begin{figure}[h]
+ \centering
+ \captionsetup{justification=centering,margin=2cm}
+  \subfloat[]{
+   \label{fig:}
+    \includegraphics[width=0.4\textwidth]{diffusion/Al_Cu_ln(D).pdf}}
+  \subfloat[]{
+   \label{fig:sigma4}
+    \includegraphics[width=0.4\textwidth]{diffusion/Al_Pt_ln(D).pdf}} \\
+  \subfloat[]{
+   \label{fig:sigma4}
+    \includegraphics[width=0.4\textwidth]{diffusion/Al_Ti_ln(D).pdf}}
+  \subfloat[]{
+   \label{fig:sigma4}
+    \includegraphics[width=0.4\textwidth]{diffusion/Ag_Cu_ln(D).pdf}} \\
+  \subfloat[]{
+   \label{fig:sigma4}
+    \includegraphics[width=0.4\textwidth]{diffusion/Ag_Pt_ln(D).pdf}}
+  \subfloat[]{
+   \label{fig:sigma4}
+    \includegraphics[width=0.4\textwidth]{diffusion/Ag_Ti_ln(D).pdf}}
+ \caption{ %\ref{fig:MM_LJ_10in}}
+ }
+ \label{fig:sigmas}
+\end{figure}
+
+
+
+
