@@ -33,7 +33,7 @@ def plot(dataframe, x_axis, y_axis, x_label, y_label):
     plt.grid(True)
     plt.tight_layout()
     #plt.show()
-    filename = f"graficas/{y_axis}.pdf"
+    filename = f"reporte/graficas/{y_axis}.pdf"
     plt.savefig(filename)
     plt.close()
 
@@ -51,6 +51,6 @@ def plot2(dataframe, x_axis, y_axis, x_label, y_label):
         plt.tight_layout()
         #plt.show()
         #para guardar la imagen
-        filename = f"graficas/{system}_{y_axis}.pdf"
+        filename = f"reporte/graficas/{system}_{y_axis}.pdf"
         plt.savefig(filename)
         plt.close()
