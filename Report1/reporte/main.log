@@ -1,16 +1,16 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.5.26)  26 MAY 2025 22:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.5.26)  26 MAY 2025 23:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/shann/OneDrive/Documents/GitHub/Metallic_materials/Report1/reporte/main.tex
+**c:/Users/shann/OneDrive/Documents/GitHub/Metallic_materials/Report1/reporte/main
 (c:/Users/shann/OneDrive/Documents/GitHub/Metallic_materials/Report1/reporte/main.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-29>
 (c:/texlive/2025/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
-(c:/texlive/2025/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+(c:/texlive/2025/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count272
 \c@section=\count273
@@ -140,7 +140,7 @@ Package: babel 2025/05/14 v25.9 The multilingual framework for pdfLaTeX, LuaLaTe
  (c:/texlive/2025/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
  (c:/texlive/2025/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
-Package babel Info: Importing font and identification data for English
+Package babel Info: Importing font and identification data for english
 (babel)             from babel-en.ini. Reported on input line 11.
 )
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
@@ -149,16 +149,6 @@ Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
 (babel)             (\language22). Reported on input line 105.
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
 (babel)             (\language22). Reported on input line 108.
-
-c:/texlive/2025/texmf-dist/tex/generic/babel-english/english.ldf:191: Missing number, treated as zero.
-<to be read again> 
-                   \l@English 
-l.191 \ldf@finish\CurrentOption
-                               
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
 )) (c:/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 ) (c:/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
@@ -426,12 +416,98 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (c:/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-04-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count324
+) (./main.aux
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:sigma4' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:sigma4' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:sigma4' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:sigma4' multiply defined.
+
+
+LaTeX Warning: Label `fig:sigma4' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:sigma4' multiply defined.
+
+
+LaTeX Warning: Label `fig:sigma4' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:sigma4' multiply defined.
+
+
+LaTeX Warning: Label `fig:sigma4' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:sigma4' multiply defined.
+
+
+LaTeX Warning: Label `fig:sigma4' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:sigma4' multiply defined.
+
+
+LaTeX Warning: Label `fig:d' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:d' multiply defined.
+
+
+LaTeX Warning: Label `fig:lnd' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:lnd' multiply defined.
+
+
+LaTeX Warning: Label `fig:diffusion' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:sigma4' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:sigma4' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:sigma4' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:sigma4' multiply defined.
+
+
+LaTeX Warning: Label `fig:selfdiff_lnd' multiply defined.
+
 )
-
-LaTeX Warning: Unused global option(s):
-    [12].
-
-No file main.aux.
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
@@ -452,6 +528,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
 LaTeX Font Info:    ... okay on input line 54.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 54.
 LaTeX Font Info:    ... okay on input line 54.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -471,12 +548,12 @@ LaTeX Font Info:    ... okay on input line 54.
 * \topmargin=-37.0pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=10.0pt
+* \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=65.0pt
-* \marginparsep=11.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -486,10 +563,7 @@ LaTeX Font Info:    ... okay on input line 54.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(c:/texlive/2025/texmf-dist/tex/generic/babel/locale/en/babel-english.tex)
-Package babel Info: Importing data for english
-(babel)             from babel-en.ini. Reported on input line 54.
- (c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count325
 \scratchdimen=\dimen190
@@ -519,6 +593,7 @@ LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
 )
 Package hyperref Info: Link coloring OFF on input line 54.
+ (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
@@ -539,11 +614,11 @@ LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 6
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 66.
+(Font)              <14.4> on input line 66.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 66.
+(Font)              <10> on input line 66.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 66.
+(Font)              <7> on input line 66.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 66.
  (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -555,46 +630,234 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 66.
  (c:/texlive/2025/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+) (./p1.tex
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 8.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 8.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 8.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 )
-
-Package natbib Warning: Citation `diff' on page 1 undefined on input line 68.
-
-(./main.bbl)
-
-Package natbib Warning: There were undefined citations.
-
-
 
 [1
 
-{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}] (./main.aux)
+{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}] (./p2.tex
+Underfull \hbox (badness 10000) in paragraph at lines 7--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+<graficas/D(T).pdf, id=62, 462.52798pt x 346.89601pt>
+File: graficas/D(T).pdf Graphic file (type pdf)
+<use graficas/D(T).pdf>
+Package pdftex.def Info: graficas/D(T).pdf  used on input line 26.
+(pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
+<graficas/ln(D).pdf, id=63, 462.52798pt x 346.89601pt>
+File: graficas/ln(D).pdf Graphic file (type pdf)
+<use graficas/ln(D).pdf>
+Package pdftex.def Info: graficas/ln(D).pdf  used on input line 29.
+(pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
+
+Overfull \hbox (7.8332pt too wide) in paragraph at lines 26--31
+ [][][][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[2{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
+<graficas/Ag_Ag_ln(D).pdf, id=89, 462.52798pt x 346.89601pt>
+File: graficas/Ag_Ag_ln(D).pdf Graphic file (type pdf)
+<use graficas/Ag_Ag_ln(D).pdf>
+Package pdftex.def Info: graficas/Ag_Ag_ln(D).pdf  used on input line 45.
+(pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
+<graficas/Al_Al_ln(D).pdf, id=90, 462.52798pt x 346.89601pt>
+File: graficas/Al_Al_ln(D).pdf Graphic file (type pdf)
+<use graficas/Al_Al_ln(D).pdf>
+Package pdftex.def Info: graficas/Al_Al_ln(D).pdf  used on input line 48.
+(pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
+
+Overfull \hbox (7.8332pt too wide) in paragraph at lines 45--48
+ [][][][] 
+ []
+
+<graficas/Cu_Cu_ln(D).pdf, id=91, 462.52798pt x 346.89601pt>
+File: graficas/Cu_Cu_ln(D).pdf Graphic file (type pdf)
+<use graficas/Cu_Cu_ln(D).pdf>
+Package pdftex.def Info: graficas/Cu_Cu_ln(D).pdf  used on input line 51.
+(pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
+<graficas/Ti_Ti_ln(D).pdf, id=92, 462.52798pt x 346.89601pt>
+File: graficas/Ti_Ti_ln(D).pdf Graphic file (type pdf)
+<use graficas/Ti_Ti_ln(D).pdf>
+Package pdftex.def Info: graficas/Ti_Ti_ln(D).pdf  used on input line 54.
+(pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
+
+Overfull \hbox (7.8332pt too wide) in paragraph at lines 51--56
+ [][][][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<graficas/Ag_Cu_ln(D).pdf, id=101, 462.52798pt x 346.89601pt>
+File: graficas/Ag_Cu_ln(D).pdf Graphic file (type pdf)
+<use graficas/Ag_Cu_ln(D).pdf>
+Package pdftex.def Info: graficas/Ag_Cu_ln(D).pdf  used on input line 68.
+(pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
+<graficas/Al_Cu_ln(D).pdf, id=102, 462.52798pt x 346.89601pt>
+File: graficas/Al_Cu_ln(D).pdf Graphic file (type pdf)
+<use graficas/Al_Cu_ln(D).pdf>
+Package pdftex.def Info: graficas/Al_Cu_ln(D).pdf  used on input line 71.
+(pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
+
+Overfull \hbox (7.8332pt too wide) in paragraph at lines 68--71
+ [][][][] 
+ []
+
+<graficas/Ag_Pt_ln(D).pdf, id=103, 462.52798pt x 346.89601pt>
+File: graficas/Ag_Pt_ln(D).pdf Graphic file (type pdf)
+<use graficas/Ag_Pt_ln(D).pdf>
+Package pdftex.def Info: graficas/Ag_Pt_ln(D).pdf  used on input line 74.
+(pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
+<graficas/Al_Pt_ln(D).pdf, id=104, 462.52798pt x 346.89601pt>
+File: graficas/Al_Pt_ln(D).pdf Graphic file (type pdf)
+<use graficas/Al_Pt_ln(D).pdf>
+Package pdftex.def Info: graficas/Al_Pt_ln(D).pdf  used on input line 77.
+(pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
+
+Overfull \hbox (7.8332pt too wide) in paragraph at lines 74--77
+ [][][][] 
+ []
+
+<graficas/Ag_Ti_ln(D).pdf, id=105, 462.52798pt x 346.89601pt>
+File: graficas/Ag_Ti_ln(D).pdf Graphic file (type pdf)
+<use graficas/Ag_Ti_ln(D).pdf>
+Package pdftex.def Info: graficas/Ag_Ti_ln(D).pdf  used on input line 80.
+(pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
+<graficas/Al_Ti_ln(D).pdf, id=106, 462.52798pt x 346.89601pt>
+File: graficas/Al_Ti_ln(D).pdf Graphic file (type pdf)
+<use graficas/Al_Ti_ln(D).pdf>
+Package pdftex.def Info: graficas/Al_Ti_ln(D).pdf  used on input line 83.
+(pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
+
+Overfull \hbox (7.8332pt too wide) in paragraph at lines 80--85
+ [][][][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 40.54303pt on input line 87.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./p3.tex
+
+[3 <./graficas/D(T).pdf> <./graficas/ln(D).pdf>]
+<graficas/x.pdf, id=195, 462.52798pt x 346.89601pt>
+File: graficas/x.pdf Graphic file (type pdf)
+<use graficas/x.pdf>
+Package pdftex.def Info: graficas/x.pdf  used on input line 9.
+(pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
+<graficas/log(x).pdf, id=196, 462.52798pt x 346.89601pt>
+File: graficas/log(x).pdf Graphic file (type pdf)
+<use graficas/log(x).pdf>
+Package pdftex.def Info: graficas/log(x).pdf  used on input line 12.
+(pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
+
+Overfull \hbox (7.8332pt too wide) in paragraph at lines 9--14
+ [][][][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<graficas/Ag_Ag_log(x).pdf, id=205, 462.52798pt x 346.89601pt>
+File: graficas/Ag_Ag_log(x).pdf Graphic file (type pdf)
+<use graficas/Ag_Ag_log(x).pdf>
+Package pdftex.def Info: graficas/Ag_Ag_log(x).pdf  used on input line 26.
+(pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
+<graficas/Al_Al_log(x).pdf, id=206, 462.52798pt x 346.89601pt>
+File: graficas/Al_Al_log(x).pdf Graphic file (type pdf)
+<use graficas/Al_Al_log(x).pdf>
+Package pdftex.def Info: graficas/Al_Al_log(x).pdf  used on input line 29.
+(pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
+
+Overfull \hbox (7.8332pt too wide) in paragraph at lines 26--29
+ [][][][] 
+ []
+
+<graficas/Cu_Cu_log(x).pdf, id=207, 462.52798pt x 346.89601pt>
+File: graficas/Cu_Cu_log(x).pdf Graphic file (type pdf)
+<use graficas/Cu_Cu_log(x).pdf>
+Package pdftex.def Info: graficas/Cu_Cu_log(x).pdf  used on input line 32.
+(pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
+<graficas/Ti_Ti_log(x).pdf, id=208, 462.52798pt x 346.89601pt>
+File: graficas/Ti_Ti_log(x).pdf Graphic file (type pdf)
+<use graficas/Ti_Ti_log(x).pdf>
+Package pdftex.def Info: graficas/Ti_Ti_log(x).pdf  used on input line 35.
+(pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
+
+Overfull \hbox (7.8332pt too wide) in paragraph at lines 32--37
+ [][][][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./main.bbl
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 22.
+ (c:/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+))
+
+[4]
+
+[5 <./graficas/Ag_Ag_ln(D).pdf> <./graficas/Al_Al_ln(D).pdf> <./graficas/Cu_Cu_ln(D).pdf> <./graficas/Ti_Ti_ln(D).pdf>]
+
+[6 <./graficas/Ag_Cu_ln(D).pdf> <./graficas/Al_Cu_ln(D).pdf> <./graficas/Ag_Pt_ln(D).pdf> <./graficas/Al_Pt_ln(D).pdf> <./graficas/Ag_Ti_ln(D).pdf> <./graficas/Al_Ti_ln(D).pdf>]
+
+[7 <./graficas/x.pdf> <./graficas/log(x).pdf>]
+
+[8 <./graficas/Ag_Ag_log(x).pdf> <./graficas/Al_Al_log(x).pdf> <./graficas/Cu_Cu_log(x).pdf> <./graficas/Ti_Ti_log(x).pdf>] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-29>
  ***********
 
 
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: E006C7671F761DF4DAE2C2AD4D4FCAAE;963.
  ) 
 Here is how much of TeX's memory you used:
- 15210 strings out of 469590
- 240044 string characters out of 5474519
- 658334 words of memory out of 5000000
- 41849 multiletter control sequences out of 15000+600000
- 652341 words of font info for 64 fonts, out of 8000000 for 9000
+ 15416 strings out of 469590
+ 244455 string characters out of 5474519
+ 663364 words of memory out of 5000000
+ 41981 multiletter control sequences out of 15000+600000
+ 679422 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,79p,617b,452s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb>
-Output written on main.pdf (1 page, 97074 bytes).
+ 75i,11n,79p,672b,506s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
+Output written on main.pdf (8 pages, 386716 bytes).
 PDF statistics:
- 34 PDF objects out of 1000 (max. 8388607)
- 22 compressed objects within 1 object stream
- 2 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 768 PDF objects out of 1000 (max. 8388607)
+ 275 compressed objects within 3 object streams
+ 47 named destinations out of 1000 (max. 500000)
+ 147 words of extra memory for PDF output out of 10000 (max. 10000000)
 

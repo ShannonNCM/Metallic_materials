@@ -1,0 +1,69 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Cap~Morales%
+}{%
+Cap~Morales%
+}{%
+{\protect \APACyear {2025}}%
+}]{%
+mygit}
+\APACinsertmetastar {%
+mygit}%
+\begin{APACrefauthors}%
+Cap~Morales, S\BPBI N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025}{}{}.
+\newblock
+\APACrefbtitle {GitHub Repository: Metallic Materials.} {Github repository: Metallic materials.}
+\newblock
+\APAChowpublished {\url{https://github.com/ShannonNCM/Metallic_materials.git}}.
+\newblock
+\APACrefnote{Source code for data processing and visualization}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {Diffusion Database (Kakusan)}}{%
+\APACcitebtitle {Diffusion Database (Kakusan)}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+kakusan}
+\APACinsertmetastar {%
+kakusan}%
+\APACrefbtitle {Diffusion Database (Kakusan).} {Diffusion database (kakusan).}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APAChowpublished {\url{https://diffusion.nims.go.jp/}}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Heitjans%
+\ \BBA {} K{\"a}rger%
+}{%
+Heitjans%
+\ \BBA {} K{\"a}rger%
+}{%
+{\protect \APACyear {2006}}%
+}]{%
+diff}
+\APACinsertmetastar {%
+diff}%
+\begin{APACrefauthors}%
+Heitjans, P.%
+\BCBT {}\ \BBA {} K{\"a}rger, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2006}.
+\newblock
+\APACrefbtitle {Diffusion in condensed matter: methods, materials, models} {Diffusion in condensed matter: methods, materials, models}.
+\newblock
+\APACaddressPublisher{}{Springer Science \& Business Media}.
+\newblock
+\begin{APACrefURL} \url{https://link.springer.com/book/10.1007/3-540-30970-5} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
