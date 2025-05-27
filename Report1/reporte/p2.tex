@@ -1,3 +1,4 @@
+\clearpage
 \section{Diffusion coefficient}
 
 Using the data from table \ref{tab:tabla2}, the diffusion coefficient was calculated with the Arrhenius relation:
@@ -18,7 +19,7 @@ Considering that all systems have different temperature ranges (\ref{tab:tabla2}
 
 The results for the diffusion coefficient for all systems are presented in figure \ref{fig:diffusion}. Figure \ref{fig:d} shows the diffusion coefficient for all systems as a function of temperature, from $450$ to $1950$K; the linearization of Arrhenius relation is shown in figure \ref{fig:lnd}, where the logarithm of the diffusion coefficient is plotted as a function of the inverse of the temperature.
 
-\begin{figure}[h]
+\begin{figure}[H]
  \centering
  \captionsetup{justification=centering}
   \subfloat[]{
@@ -32,56 +33,57 @@ The results for the diffusion coefficient for all systems are presented in figur
  \label{fig:diffusion}
 \end{figure}
 
-
-\newpage
 \subsection{Self diffusion}
 
-The self-diffusing systems are Ag-Ag, Al-Al, Cu-Cu and Ti-Ti. The plot for the logarithm of the diffusion coefficient as a function of the inverse of the temperature are shown in figure \ref{fig:selfdiff_lnd}.  
-\begin{figure}[h]
+The self-diffusing systems are Ag-Ag, Al-Al, Cu-Cu and Ti-Ti. The plots for the logarithm of the diffusion coefficient as a function of the inverse of the temperature are shown in figure \ref{fig:selfdiff_lnd}. As seen on all four plots, all the systems show a linear behaviour which is consistent of what is expected for systems that follow the Arrhenius relation \eqref{eq:2}. 
+
+\begin{figure}[H]
  \centering
  \captionsetup{justification=centering}
   \subfloat[]{
-   \label{fig:}
+   \label{fig:selfdiff_ag}
     \includegraphics[width=0.5\textwidth]{graficas/Ag_Ag_ln(D).pdf}}
   \subfloat[]{
-   \label{fig:sigma4}
+   \label{fig:selfdiff_al}
     \includegraphics[width=0.5\textwidth]{graficas/Al_Al_ln(D).pdf}} \\
   \subfloat[]{
-   \label{fig:}
+   \label{fig:selfdiff_cu}
     \includegraphics[width=0.5\textwidth]{graficas/Cu_Cu_ln(D).pdf}}
   \subfloat[]{
-   \label{fig:sigma4}
+   \label{fig:selfdiff_ti}
     \includegraphics[width=0.5\textwidth]{graficas/Ti_Ti_ln(D).pdf}}
  \caption{Logarithm of the diffusion coefficient for self-diffusing systems: a) silver, b) aluminum, c) copper and d) titanium.\\ 
  \textit{Source: Data from \citep{kakusan}, visualization by the author (code available at \citep{mygit}).}}
  \label{fig:selfdiff_lnd}
 \end{figure}
 
-%\newpage
+
 \subsection{Solute diffusion}
 
-\begin{figure}[h]
+The plots for diffusing systems using are shown in figure \ref{fig:diff_lnd}, where each graph corresponds to a different system in which copper, platinum and titatium were solutes in silver and aluminum. All the plots show a linear behaviour that corresponds to the Arrhenius relation \ref{eq:2}. Which shows that the systems follow blalbalbalbla
+
+\begin{figure}[H]
  \centering
  \captionsetup{justification=centering}
   \subfloat[]{
-   \label{fig:}
+   \label{fig:diff_ag_cu}
     \includegraphics[width=0.5\textwidth]{graficas/Ag_Cu_ln(D).pdf}}
   \subfloat[]{
-   \label{fig:sigma4}
+   \label{fig:diff_al_cu}
     \includegraphics[width=0.5\textwidth]{graficas/Al_Cu_ln(D).pdf}} \\
   \subfloat[]{
-   \label{fig:sigma4}
+   \label{fig:diff_ag_pt}
     \includegraphics[width=0.5\textwidth]{graficas/Ag_Pt_ln(D).pdf}}
   \subfloat[]{
-   \label{fig:sigma4}
+   \label{fig:diff_al_pt}
     \includegraphics[width=0.5\textwidth]{graficas/Al_Pt_ln(D).pdf}} \\
   \subfloat[]{
-   \label{fig:sigma4}
+   \label{fig:diff_ag_ti}
     \includegraphics[width=0.5\textwidth]{graficas/Ag_Ti_ln(D).pdf}}
   \subfloat[]{
-   \label{fig:sigma4}
+   \label{fig:diff_al_ti}
     \includegraphics[width=0.5\textwidth]{graficas/Al_Ti_ln(D).pdf}}
  \caption{Logarithm of the diffusion coefficient for the systems: copper diffusing in a) silver and b) aluminum; platinum diffusing in c) silver and d) aluminum; and platinum diffusing in f) silver and g) aluminum.\\ 
  \textit{Source: Data from \citep{kakusan}, visualization by the author (code available at \cite{mygit}).}}
- \label{fig:sigmas}
+ \label{fig:diff_lnd}
 \end{figure}
