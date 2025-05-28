@@ -1,12 +1,14 @@
 \section{Metals and solutes}
 
-Using the diffusion database from DICE website three metals were selected along with two solutes. The way the metals were chosen was based on the solutes they had in common, for systems of only two different species. In this case, the metals chosen were: copper, platinum and titanium because there was available data for aluminum and silver as solutes for those three metals. However, as it is shown on table \ref{tab:tabla2} data for a self-diffusion system for platinum was not found, the only available data were for systems in which iron is also present. 
+Using the diffusion database from \citet{kakusan} website, three metals were selected along with two solutes. The metals were chosen based on the solutes they had in common as well as the disponibility of data for the systems that wanted to be studied.
 
-\begin{table}[h]
+To choose the metals and solutes to use, first a few options for commonly used solutes were considered, such as carbon (C), silver (Ag) and aluminum (Al). The different systems of solute-metals was searched using the \cite{kakusan} website, in order to find which elements were common solutes to all three metals. As a result of this process, the solutes chosen were silver and aluminum, while the metals for which it was possible to find information with the selected solutes were copper, platinum and tittanium.
+
+\begin{table}[H]
     \centering
     \captionsetup{justification=centering}
     \begin{tabular}{ccc}
-        Metal & Structure & Solute\\ \hline \hline
+        Metal & Structure & Common solute\\ \hline \hline
         Cu & fcc & Al, Ag \\
         Pt & hexagonal & Al, Ag \\
         Ti & hexagonal & Al, Ag \\
@@ -16,8 +18,15 @@ Using the diffusion database from DICE website three metals were selected along 
     \label{tab:tabla1}
 \end{table}
 
-After establishing the metals and solutes to be used, the information related to the diffusion coefficient was obtained by indicating the solute (Ag or Al) and the metal in which it will be diffused. The information corresponding to the systems is presented in the following table:
-\begin{table}[t]
+%\newpage
+After establishing the metals and solutes to be used, the information related to the diffusion coefficient was obtained from the \citet{kakusan} by indicating the solute (Ag or Al) and the metal in which it will be diffused.
+
+For the self-diffusion systems, the solute indicated was the same as the metal, however, there was no information available for the self-diffusion of aluminum; the only information found corresponded to systems that also had iron in them. This information was not used because the systems considered for self-diffusion were only those who did not have other species in them.
+
+\newpage
+The information corresponding to the systems is presented in the following table:
+
+\begin{table}[H]
     \centering
     \captionsetup{justification=centering}
     \begin{tabular}{ccccc}
@@ -25,7 +34,7 @@ After establishing the metals and solutes to be used, the information related to
         Ag-Ag & $2,70e-5$ & $182,96$ & $980$ & $1250$\\
         Al-Al & $1,37e-5$ & $124$ & $583$ & $953$ \\
         Cu-Cu & $1,05e-4$ & $210$ & $845$ & $1111$\\
-        Ti-Tu & $3,4e-4$ & $328$ & $1393$ & $1941$ \\
+        Ti-Ti & $3,4e-4$ & $328$ & $1393$ & $1941$ \\
         Ag-Cu & $3,10e-10$ & $72$ & $498$ & $573$\\
         Ag-Pt & $1,30e-5$ & $258$ & $1473$ & $1873$\\
         Ag-Ti & $1,00e-4$ & $279$ & $823$ & $1073$ \\

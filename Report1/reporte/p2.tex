@@ -1,23 +1,28 @@
 \clearpage
 \section{Diffusion coefficient}
 
-Using the data from table \ref{tab:tabla2}, the diffusion coefficient was calculated with the Arrhenius relation:
+The diffusion coefficient can be calculated with the Arrhenius relation:
+
 \begin{align}
     \label{eq:1}
     D&=D_0 exp\left(-\dfrac{\Delta H}{RT}\right),
 \end{align}
-where $D$ is the Diffusion coefficient, $D_0$ is a pre-exponential factor, $\Delta H$ is the activation entalphy of diffusion in $k J/mol$ (which is also represented as $Q$), R is the ideal gas constant ($8,314 J/K\cdot mol$) and T is the temperature in Kelvin \citep{diff}. \\
+where $D$ is the Diffusion coefficient, $D_0$ is a pre-exponential factor, $\Delta H$ is the activation entalphy of diffusion in $J/mol$ (which is also represented as $Q$), R is the ideal gas constant ($8,314$ $J/K\cdot mol$) and $T$ is the temperature in Kelvin \citep{diff}. 
 
 The linearization of Arrhenius relation can be made by taking the logarithm on both sides of equation \eqref{eq:1}, which yields:
 \begin{align}
   \label{eq:2}
   ln(D)&=-\dfrac{\Delta H}{R}\dfrac{1}{T} + ln(D_0),
 \end{align}
-which is a linear equation where the slope is given by $-\Delta H/R$ and the intercept in the y-axis is given by $ln(D_0)$. \\
+which is a linear equation where the slope is given by $-\Delta H/R$ and the intercept in the y-axis is given by $ln(D_0)$.
 
-Considering that all systems have different temperature ranges (\ref{tab:tabla2}), to proceed with the calculations, a new temperature range was chosen, from $450$ to $1950$ K, so that all systems use the same temperature range and can be compared with each other. The new temperature range was used to calculate $D$ for all systems, with a sample of 100 points evenly spaced, and the parameters of $D_0$, $Q$ and $R$ using equation \eqref{eq:1}.\\
+Considering that all systems have different temperature ranges, to proceed with the calculations, a new temperature range was chosen, from $450$ to $1950$ K, so that all systems use the same temperature range and can be compared with each other. The new temperature range was used to calculate $D$ for all systems, with a sample of 100 points evenly spaced, and the parameters of $D_0$, $Q$ and $R$ using equation \eqref{eq:1}.
 
-The results for the diffusion coefficient for all systems are presented in figure \ref{fig:diffusion}. Figure \ref{fig:d} shows the diffusion coefficient for all systems as a function of temperature, from $450$ to $1950$K; the linearization of Arrhenius relation is shown in figure \ref{fig:lnd}, where the logarithm of the diffusion coefficient is plotted as a function of the inverse of the temperature.
+After calculating the diffusion coefficient for the systems, the lorgarithm of the diffusion coefficients and the inverse of the temperature were also calculateded, in order to present the results in the linearized form of equation \eqref{eq:3}.
+
+The results for the diffusion coefficient for all systems are presented in figure \ref{fig:diffusion}. Figure \ref{fig:d} shows the diffusion coefficient for all systems as a function of temperature, from $450$ to $1950$K. The linearization of Arrhenius relation is shown in figure \ref{fig:lnd}, where the logarithm of the diffusion coefficient is plotted as a function of the inverse of the temperature.
+
+(Incluir aca el analisis de las dos graficas, para profundizar en los comportamientos)
 
 \begin{figure}[H]
  \centering
@@ -36,6 +41,8 @@ The results for the diffusion coefficient for all systems are presented in figur
 \subsection{Self diffusion}
 
 The self-diffusing systems are Ag-Ag, Al-Al, Cu-Cu and Ti-Ti. The plots for the logarithm of the diffusion coefficient as a function of the inverse of the temperature are shown in figure \ref{fig:selfdiff_lnd}. As seen on all four plots, all the systems show a linear behaviour which is consistent of what is expected for systems that follow the Arrhenius relation \eqref{eq:2}. 
+
+(Profundizar en la parte del analisis de las graficas)
 
 \begin{figure}[H]
  \centering
@@ -60,7 +67,9 @@ The self-diffusing systems are Ag-Ag, Al-Al, Cu-Cu and Ti-Ti. The plots for the 
 
 \subsection{Solute diffusion}
 
-The plots for diffusing systems using are shown in figure \ref{fig:diff_lnd}, where each graph corresponds to a different system in which copper, platinum and titatium were solutes in silver and aluminum. All the plots show a linear behaviour that corresponds to the Arrhenius relation \ref{eq:2}. Which shows that the systems follow blalbalbalbla
+The plots for the diffusion systems are shown in figure \ref{fig:diff_lnd}, where each graph corresponds to a different system in which copper, platinum and titatium were solutes in silver and aluminum. All the plots show a linear behaviour that corresponds to the Arrhenius relation \ref{eq:2}. 
+
+(Which shows that the systems follow blalbalbalbla, agregar la parte del anaisis)
 
 \begin{figure}[H]
  \centering
