@@ -23,7 +23,7 @@ def distance(D,t):
 
 #   funciones para graficar
 #funcion pra graficar todos los datos en una sola
-def plot(dataframe, x_axis, y_axis, x_label, y_label):
+def plot(dataframe, x_axis, y_axis, x_label, y_label, type):
     for system, data in dataframe.items():
         plt.plot(data[x_axis], data[y_axis], label=system)
     
@@ -33,7 +33,7 @@ def plot(dataframe, x_axis, y_axis, x_label, y_label):
     plt.grid(True)
     plt.tight_layout()
     #plt.show()
-    filename = f"reporte/graficas/{y_axis}.pdf"
+    filename = f"reporte/graficas/{y_axis}_{type}.pdf"
     plt.savefig(filename)
     plt.close()
 
