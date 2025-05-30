@@ -20,50 +20,23 @@ Considering that all systems have different temperature ranges, to proceed with 
 
 After calculating the diffusion coefficient for the systems, the lorgarithm of the diffusion coefficients and the inverse of the temperature were also calculateded, in order to present the results in the linearized form of equation \eqref{eq:3}.
 
-The results for the diffusion coefficient for all systems are presented in figure \ref{fig:diffusion}. Figure \ref{fig:d} shows the diffusion coefficient for all systems as a function of temperature, from $450$ to $1950$K. The linearization of Arrhenius relation is shown in figure \ref{fig:lnd}, where the logarithm of the diffusion coefficient is plotted as a function of the inverse of the temperature.
-
-\begin{figure}[H]
- \centering
- \captionsetup{justification=centering}
-  \subfloat[]{
-   \label{fig:d}
-    \includegraphics[width=0.5\textwidth]{graficas/D(T).pdf}}
-  \subfloat[]{
-   \label{fig:lnd}
-    \includegraphics[width=0.5\textwidth]{graficas/ln(D).pdf}}
- \caption{a) Diffusion coefficient $D$ ($m^2/s)$ as a function of temperature $T$ (K) and b) logarithm of the diffusion coefficient $ln(D)$ as a function of the inverse of temperature $1/T$ ($K^{-1}$). \\
- \textit{Source: Data from \citep{kakusan}, visualization by the author (code available at \citep{mygit}).}}
- \label{fig:diffusion}
-\end{figure}
-
 \subsection{Self diffusion}
 
 The self-diffusing systems are Ag-Ag, Al-Al, Cu-Cu and Ti-Ti. The plots for the logarithm of the diffusion coefficient as a function of the inverse of the temperature are shown in figure \ref{fig:selfdiff_lnd}. As seen on all four plots, all the systems show a linear behaviour which is consistent of what is expected for systems that follow the Arrhenius relation \eqref{eq:2}. 
 
-
-
-(Profundizar en la parte del analisis de las graficas)
-
-\begin{figure}[H]
+\begin{figure}[h]
  \centering
  \captionsetup{justification=centering}
   \subfloat[]{
-   \label{fig:selfdiff_ag}
-    \includegraphics[width=0.5\textwidth]{graficas/Ag_Ag_ln(D).pdf}}
+   \label{fig:d}
+    \includegraphics[width=0.5\textwidth]{graficas/D(T)_self.pdf}}
   \subfloat[]{
-   \label{fig:selfdiff_al}
-    \includegraphics[width=0.5\textwidth]{graficas/Al_Al_ln(D).pdf}} \\
-  \subfloat[]{
-   \label{fig:selfdiff_cu}
-    \includegraphics[width=0.5\textwidth]{graficas/Cu_Cu_ln(D).pdf}}
-  \subfloat[]{
-   \label{fig:selfdiff_ti}
-    \includegraphics[width=0.5\textwidth]{graficas/Ti_Ti_ln(D).pdf}}
- \caption{Logarithm of the diffusion coefficient for self-diffusing systems: a) silver, b) aluminum, c) copper and d) titanium.\\ 
+   \label{fig:lnd}
+    \includegraphics[width=0.5\textwidth]{graficas/ln(D)_self.pdf}}
+ \caption{a) Diffusion coefficient $D$ ($m^2/s)$ as a function of temperature $T$ (K) and b) logarithm of the diffusion coefficient $ln(D)$ as a function of the inverse of temperature $1/T$ ($K^{-1}$). \\
  \textit{Source: Data from \citep{kakusan}, visualization by the author (code available at \citep{mygit}).}}
- \label{fig:selfdiff_lnd}
+ \label{fig:diffusion}
 \end{figure}
-
 
 \subsection{Solute diffusion}
 
@@ -71,28 +44,16 @@ The plots for the diffusion systems are shown in figure \ref{fig:diff_lnd}, wher
 
 (Which shows that the systems follow blalbalbalbla, agregar la parte del anaisis)
 
-\begin{figure}[H]
+\begin{figure}[h]
  \centering
  \captionsetup{justification=centering}
   \subfloat[]{
-   \label{fig:diff_ag_cu}
-    \includegraphics[width=0.5\textwidth]{graficas/Ag_Cu_ln(D).pdf}}
+   \label{fig:d}
+    \includegraphics[width=0.5\textwidth]{graficas/D(T)_other.pdf}}
   \subfloat[]{
-   \label{fig:diff_al_cu}
-    \includegraphics[width=0.5\textwidth]{graficas/Al_Cu_ln(D).pdf}} \\
-  \subfloat[]{
-   \label{fig:diff_ag_pt}
-    \includegraphics[width=0.5\textwidth]{graficas/Ag_Pt_ln(D).pdf}}
-  \subfloat[]{
-   \label{fig:diff_al_pt}
-    \includegraphics[width=0.5\textwidth]{graficas/Al_Pt_ln(D).pdf}} \\
-  \subfloat[]{
-   \label{fig:diff_ag_ti}
-    \includegraphics[width=0.5\textwidth]{graficas/Ag_Ti_ln(D).pdf}}
-  \subfloat[]{
-   \label{fig:diff_al_ti}
-    \includegraphics[width=0.5\textwidth]{graficas/Al_Ti_ln(D).pdf}}
- \caption{Logarithm of the diffusion coefficient for the systems: copper diffusing in a) silver and b) aluminum; platinum diffusing in c) silver and d) aluminum; and platinum diffusing in f) silver and g) aluminum.\\ 
- \textit{Source: Data from \citep{kakusan}, visualization by the author (code available at \cite{mygit}).}}
- \label{fig:diff_lnd}
+   \label{fig:lnd}
+    \includegraphics[width=0.5\textwidth]{graficas/ln(D)_other.pdf}}
+ \caption{a) Diffusion coefficient $D$ ($m^2/s)$ as a function of temperature $T$ (K) and b) logarithm of the diffusion coefficient $ln(D)$ as a function of the inverse of temperature $1/T$ ($K^{-1}$). \\
+ \textit{Source: Data from \citep{kakusan}, visualization by the author (code available at \citep{mygit}).}}
+ \label{fig:diffusion}
 \end{figure}
