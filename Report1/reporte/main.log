@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.5.26)  3 JUN 2025 18:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.5.26)  4 JUN 2025 10:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -429,34 +429,7 @@ File: l3backend-pdftex.def 2025-04-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count325
 ) (./main.aux
 
-LaTeX Warning: Label `fig:d' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:d' multiply defined.
-
-
-LaTeX Warning: Label `fig:lnd' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:lnd' multiply defined.
-
-
-LaTeX Warning: Label `fig:diffusion' multiply defined.
-
-
-LaTeX Warning: Label `fig:d' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:d' multiply defined.
-
-
-LaTeX Warning: Label `fig:lnd' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:lnd' multiply defined.
-
-
-LaTeX Warning: Label `fig:diffusion' multiply defined.
+LaTeX Warning: Label `tab:tabla2' multiply defined.
 
 )
 \openout1 = `main.aux'.
@@ -621,12 +594,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 {c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
 
 [4 <./graficas/D(T)_self.pdf> <./graficas/ln(D)_self.pdf>]
-<graficas/D(T)_other.pdf, id=182, 462.52798pt x 346.89601pt>
+<graficas/D(T)_other.pdf, id=181, 462.52798pt x 346.89601pt>
 File: graficas/D(T)_other.pdf Graphic file (type pdf)
 <use graficas/D(T)_other.pdf>
 Package pdftex.def Info: graficas/D(T)_other.pdf  used on input line 64.
 (pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
-<graficas/ln(D)_other.pdf, id=183, 462.52798pt x 346.89601pt>
+<graficas/ln(D)_other.pdf, id=182, 462.52798pt x 346.89601pt>
 File: graficas/ln(D)_other.pdf Graphic file (type pdf)
 <use graficas/ln(D)_other.pdf>
 Package pdftex.def Info: graficas/ln(D)_other.pdf  used on input line 67.
@@ -640,54 +613,51 @@ Overfull \hbox (7.8332pt too wide) in paragraph at lines 64--69
 
 [5 <./graficas/D(T)_other.pdf> <./graficas/ln(D)_other.pdf>]
 
-LaTeX Warning: Reference `fig:length' on page 6 undefined on input line 10.
+[6
 
-<graficas/l_self.pdf, id=269, 462.52798pt x 346.89601pt>
+]
+<graficas/l_self.pdf, id=283, 462.52798pt x 346.89601pt>
 File: graficas/l_self.pdf Graphic file (type pdf)
 <use graficas/l_self.pdf>
-Package pdftex.def Info: graficas/l_self.pdf  used on input line 21.
+Package pdftex.def Info: graficas/l_self.pdf  used on input line 48.
 (pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
-<graficas/log(l)_self.pdf, id=270, 462.52798pt x 346.89601pt>
+<graficas/log(l)_self.pdf, id=284, 462.52798pt x 346.89601pt>
 File: graficas/log(l)_self.pdf Graphic file (type pdf)
 <use graficas/log(l)_self.pdf>
-Package pdftex.def Info: graficas/log(l)_self.pdf  used on input line 24.
+Package pdftex.def Info: graficas/log(l)_self.pdf  used on input line 51.
 (pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
 
-Overfull \hbox (7.8332pt too wide) in paragraph at lines 21--26
+Overfull \hbox (7.8332pt too wide) in paragraph at lines 48--53
  [][][][] 
  []
 
-<graficas/l_other.pdf, id=279, 462.52798pt x 346.89601pt>
+
+
+[7 <./graficas/l_self.pdf> <./graficas/log(l)_self.pdf>]
+<graficas/l_other.pdf, id=360, 462.52798pt x 346.89601pt>
 File: graficas/l_other.pdf Graphic file (type pdf)
 <use graficas/l_other.pdf>
-Package pdftex.def Info: graficas/l_other.pdf  used on input line 40.
+Package pdftex.def Info: graficas/l_other.pdf  used on input line 71.
 (pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
-<graficas/log(l)_other.pdf, id=280, 462.52798pt x 346.89601pt>
+<graficas/log(l)_other.pdf, id=361, 462.52798pt x 346.89601pt>
 File: graficas/log(l)_other.pdf Graphic file (type pdf)
 <use graficas/log(l)_other.pdf>
-Package pdftex.def Info: graficas/log(l)_other.pdf  used on input line 43.
+Package pdftex.def Info: graficas/log(l)_other.pdf  used on input line 74.
 (pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
 
-Overfull \hbox (7.8332pt too wide) in paragraph at lines 40--45
+Overfull \hbox (7.8332pt too wide) in paragraph at lines 71--76
  [][][][] 
  []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 )
 
-[6
-
- <./graficas/l_self.pdf> <./graficas/log(l)_self.pdf>]
-
-[7 <./graficas/l_other.pdf> <./graficas/log(l)_other.pdf>] (./main.bbl
+[8 <./graficas/l_other.pdf> <./graficas/log(l)_other.pdf>] (./main.bbl
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 22.
  (c:/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ))
 
-[8
+[9
 
 ] (./main.aux)
  ***********
@@ -696,27 +666,24 @@ L3 programming layer <2025-04-29>
  ***********
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: E006C7671F761DF4DAE2C2AD4D4FCAAE;963.
  ) 
 Here is how much of TeX's memory you used:
- 15453 strings out of 469590
- 244429 string characters out of 5474519
- 660554 words of memory out of 5000000
- 42018 multiletter control sequences out of 15000+600000
- 682420 words of font info for 91 fonts, out of 8000000 for 9000
+ 15463 strings out of 469590
+ 244557 string characters out of 5474519
+ 663481 words of memory out of 5000000
+ 42026 multiletter control sequences out of 15000+600000
+ 679422 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,12n,79p,1080b,496s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 69i,12n,79p,964b,468s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (8 pages, 305548 bytes).
+Output written on main.pdf (9 pages, 312175 bytes).
 PDF statistics:
- 482 PDF objects out of 1000 (max. 8388607)
- 225 compressed objects within 3 object streams
- 37 named destinations out of 1000 (max. 500000)
+ 511 PDF objects out of 1000 (max. 8388607)
+ 243 compressed objects within 3 object streams
+ 39 named destinations out of 1000 (max. 500000)
  97 words of extra memory for PDF output out of 10000 (max. 10000000)
 
