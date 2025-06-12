@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.5.26)  12 JUN 2025 13:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.5.26)  12 JUN 2025 16:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -557,58 +557,117 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 4.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 4.
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 4.
- (c:/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 4.
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 4.
+LaTeX Warning: Reference `fig:diagrama' on page 1 undefined on input line 6.
+
+./p1.tex:6: Undefined control sequence.
+l.6 ...0$ corresponds to a $60$\% of Sn and $40$\5
+                                                   of Pb. From the figure, i...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./p1.tex:11: Double subscript.
+<argument>  C_{Sn}_
+                   {\alpha }&=4\%, & C_{Sn}_{\beta }&=99\% \\ C_{Pb}_{\alpha...
+l.11 \end{align*}
+                 
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+./p1.tex:11: Double subscript.
+<argument>  C_{Sn}_{\alpha }&=4\%, & C_{Sn}_
+                                            {\beta }&=99\% \\ C_{Pb}_{\alpha...
+l.11 \end{align*}
+                 
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+./p1.tex:11: Double subscript.
+<argument> ..., & C_{Sn}_{\beta }&=99\% \\ C_{Pb}_
+                                                  {\alpha }&=96\%, & C_{Pb}_...
+l.11 \end{align*}
+                 
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+./p1.tex:11: Double subscript.
+<argument> ...\\ C_{Pb}_{\alpha }&=96\%, & C_{Pb}_
+                                                  {\beta }&=1\% 
+l.11 \end{align*}
+                 
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+./p1.tex:11: Double subscript.
+<argument>  C_{Sn}_
+                   {\alpha }&=4\%, & C_{Sn}_{\beta }&=99\% \\ C_{Pb}_{\alpha...
+l.11 \end{align*}
+                 
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+./p1.tex:11: Double subscript.
+<argument>  C_{Sn}_{\alpha }&=4\%, & C_{Sn}_
+                                            {\beta }&=99\% \\ C_{Pb}_{\alpha...
+l.11 \end{align*}
+                 
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+./p1.tex:11: Double subscript.
+<argument> ..., & C_{Sn}_{\beta }&=99\% \\ C_{Pb}_
+                                                  {\alpha }&=96\%, & C_{Pb}_...
+l.11 \end{align*}
+                 
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+./p1.tex:11: Double subscript.
+<argument> ...\\ C_{Pb}_{\alpha }&=96\%, & C_{Pb}_
+                                                  {\beta }&=1\% 
+l.11 \end{align*}
+                 
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+
+Package natbib Warning: Citation `callister2010materials' on page 1 undefined on input line 13.
 
 <graficas/diagrama.png, id=4, 1227.08438pt x 901.11656pt>
 File: graficas/diagrama.png Graphic file (type png)
 <use graficas/diagrama.png>
-Package pdftex.def Info: graficas/diagrama.png  used on input line 8.
-(pdftex.def)             Requested size: 375.80544pt x 275.97452pt.
+Package pdftex.def Info: graficas/diagrama.png  used on input line 22.
+(pdftex.def)             Requested size: 469.75502pt x 344.97159pt.
 
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 10.
-See the caption package documentation for explanation.
+Package natbib Warning: Citation `callister2010materials' on page 1 undefined on input line 24.
 
 
-Package natbib Warning: Citation `kakusan' on page 1 undefined on input line 10.
+Package natbib Warning: Citation `callister2010materials' on page 1 undefined on input line 24.
 
 
-Package natbib Warning: Citation `kakusan' on page 1 undefined on input line 10.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-./p1.tex:12: Extra }, or forgotten \endgroup.
-\sf@endfloatbox ...gefalse \outer@nobreak \egroup 
-                                                  \color@endbox 
-l.12 \end{figure}
-                 
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 30.
+(c:/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)) (./main.bbl
+
+Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
 )
-
-[1
-
-{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc} <./graficas/diagrama.png>]
 
 Package natbib Warning: There were undefined citations.
 
 
 
-[2] (./main.aux)
+[1
+
+{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
+
+[2 <./graficas/diagrama.png>] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-29>
  ***********
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
@@ -623,18 +682,18 @@ Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             After:  C4F4BF1013F92281EA6574D6929062B8;133.
  ) 
 Here is how much of TeX's memory you used:
- 15276 strings out of 469590
- 241344 string characters out of 5474519
- 653991 words of memory out of 5000000
- 41887 multiletter control sequences out of 15000+600000
+ 15290 strings out of 469590
+ 241637 string characters out of 5474519
+ 660991 words of memory out of 5000000
+ 41897 multiletter control sequences out of 15000+600000
  678845 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,6n,79p,613b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on main.pdf (2 pages, 224773 bytes).
+ 69i,10n,79p,688b,474s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
+Output written on main.pdf (2 pages, 229005 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
- 8 named destinations out of 1000 (max. 500000)
+ 84 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
+ 9 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
