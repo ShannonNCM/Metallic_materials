@@ -1,3 +1,54 @@
 \begin{thebibliography}{}
 
+\bibitem [\protect \citeauthoryear {%
+Callister%
+\ \BBA {} Rethwisch%
+}{%
+Callister%
+\ \BBA {} Rethwisch%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+callister2010materials}
+\APACinsertmetastar {%
+callister2010materials}%
+\begin{APACrefauthors}%
+Callister, W.%
+\BCBT {}\ \BBA {} Rethwisch, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2010}.
+\newblock
+\APACrefbtitle {Materials Science and Engineering: An Introduction} {Materials science and engineering: An introduction}.
+\newblock
+\APACaddressPublisher{}{Wiley}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Rollett%
+, Rohrer%
+\BCBL {}\ \BBA {} Humphreys%
+}{%
+Rollett%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+rollett2017recrystallization}
+\APACinsertmetastar {%
+rollett2017recrystallization}%
+\begin{APACrefauthors}%
+Rollett, A.%
+, Rohrer, G.%
+\BCBL {}\ \BBA {} Humphreys, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2017}.
+\newblock
+\APACrefbtitle {Recrystallization and Related Annealing Phenomena} {Recrystallization and related annealing phenomena}.
+\newblock
+\APACaddressPublisher{}{Elsevier}.
+\PrintBackRefs{\CurrentBib}
+
 \end{thebibliography}

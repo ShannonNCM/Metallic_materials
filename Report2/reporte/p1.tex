@@ -3,19 +3,12 @@
 \subsection{}
 A Pb–$60$ at\% Sn alloy was slowly cooled from $380^{\circ}$C to $50^{\circ}$C. Calculate the volume fraction of the primary phase at $50^{\circ}$C.
 
-The phase diagram for an alloy of Pb and Sn is shown in figure \ref{fig:diagrama}. The temperature and composition are located in the diagram, the composition $C_0$ corresponds to a $60$\% of Sn and $40$\5 of Pb. From the figure, it can be seen that for a temperature of $50^{\circ}$C there is presence of two phases, $\alpha$ and $\beta$. From the isothermal of the temperature it is possible to obtain the values of the compositions for each phase by intersecting the ishothermal llinea with the baoundaries of the phase diagram, which gives the following results:
+The phase diagram for an alloy of Pb and Sn is shown in figure \ref{fig:diagrama}. The temperature and composition are located in the diagram, the composition $C_0$ corresponds to a $60$\% of Sn and $40$\% of Pb. From the figure, it can be seen that for a temperature of $50^{\circ}$C there is presence of two phases, $\alpha$ and $\beta$. From the isothermal of the temperature it is possible to obtain the values of the compositions for each phase by intersecting the ishothermal llinea with the baoundaries of the phase diagram, which gives the following results:
 
 \begin{align*}
-    C_{Sn}_{\alpha}&=4\%, & C_{Sn}_{\beta}&=99\% \\
-    C_{Pb}_{\alpha}&=96\%, & C_{Pb}_{\beta}&=1\%
+    C_{Sn_{\alpha}}&=4\%, & C_{Sn_{\beta}}&=99\% \\
+    C_{Pb_{\alpha}}&=96\%, & C_{Pb_{\beta}}&=1\%
 \end{align*}
-
-The primary phase is the phase that has a higher fraction in the mixture, for which is necessary to calcualte the fraction of each phase, and to do that the lever rule is used. The lever rule states that the phase fraction can be calculated taking the distance of the tie line of the total composition to the border of the other phase and divide this by the total distance of the tie line \citet{callister2010materials}, as it is shown in the following equations:
-
-\begin{align}
-    \label{eq:fractions}
-    W_{\alpha}&=\dfrac{C_{\beta}-C_0}{C_{\beta}-C_{\alpha}}
-\end{align}
 
 \begin{figure}[h]
     \centering
@@ -25,6 +18,90 @@ The primary phase is the phase that has a higher fraction in the mixture, for wh
     \label{fig:diagrama}
 \end{figure}
 
+%\begin{align}
+%    \begin{split}
+%        C_{Sn_{\alpha}}&=4\%, & C_{Sn_{\beta}}&=99\% \\
+%        C_{Pb_{\alpha}}&=96\%, & C_{Pb_{\beta}}&=1\%
+%    \end{split}
+%\end{align}
+
+The primary phase is the phase that has a higher fraction in the mixture, for which is necessary to calcualte the fraction of each phase, and to do that the lever rule is used. The lever rule states that the phase fraction can be calculated taking the distance of the tie line of the total composition to the border of the other phase and divide this by the total distance of the tie line \citet{callister2010materials}, the expressions for the mass fractions are presented in the following equations:
+
+\begin{align}
+    \label{eq:frac_alpha}
+    W_{\alpha}&=\dfrac{C_{\beta}-C_0}{C_{\beta}-C_{\alpha}}
+\end{align}
+
+\begin{align}
+    \label{eq:frac_beta}
+    W_{\beta}&=\dfrac{C_0-C_{\alpha}}{C_{\beta}-C_{\alpha}}
+\end{align}
+
+Using the values of the compositions obtained from the phase diagram in figure \ref{fig:diagrama}, the fractions for $\alpha$ and $\beta$ phases are calculated using equations \eqref{eq:frac_alpha} and \eqref{eq:frac_beta}:
+
+\begin{align}
+    \label{eq:w_alpha}
+    W_{\alpha}&=\dfrac{C_{\beta}-C_0}{C_{\beta}-C_{\alpha}} =\dfrac{99-60}{99-4} = \dfrac{39}{95} = 0.410526
+\end{align}
+
+\begin{align}
+    \label{eq:w_beta}
+    W_{\beta}&=\dfrac{C_0-C_{\alpha}}{C_{\beta}-C_{\alpha}} =\dfrac{60-4}{99-4} =\dfrac{59}{95} =0.589474
+\end{align}
+
+Based on the results obtained, it can be determined that the primary phase, the one that has a higher fraction is the $\beta$ phase. The equation for the volumen fraction for the $\beta$ phase is given by \citet{callister2010materials}:
+
+\begin{align}
+    \label{eq:vol_beta}
+    V_{\beta}&=\dfrac{\dfrac{W_{\beta}}{\rho_{\beta}}}{\dfrac{W_{\alpha}}{\rho_{\alpha}}+\dfrac{W_{\beta}}{\rho_{\beta}}}
+\end{align}
+
+From equation \eqref{eq:vol_beta} it is seen that it is necessary to calculate ethe density of each phase, which can be done by using the following equations \citet{callister2010materials}:
+
+\begin{align}
+    \label{eq:rho_alpha}
+    \rho_{\alpha}&=\dfrac{100}{\dfrac{C_{Sn_{\alpha}}}{\rho_{Sn}}+\dfrac{C_{Pb_{\alpha}}}{\rho_{Pb}}}
+\end{align}
+and
+\begin{align}
+    \label{eq:rho_beta}
+    \rho_{\beta}&=\dfrac{100}{\dfrac{C_{Sn_{\beta}}}{\rho_{Sn}}+\dfrac{C_{Pb_{\beta}}}{\rho_{Pb}}}.
+\end{align}
+
+Using equations \eqref{eq:rho_alpha} and \eqref{eq:rho_beta}, with the values for the densities: $\rho_{Sn}=7.24$ and $\rho_{Pb}=11.23$ (g/cm$^3$) \citet{callister2010materials} as well as the composition of the phases obtained from the phase diagrams, the densities for each phases are obtained:
+
+\begin{align}
+    \label{eq:rho_alpha_num}
+    \rho_{\alpha}&=\dfrac{100}{\dfrac{4}{7.24}+\dfrac{96}{11.23}}=\dfrac{100}{+}=
+\end{align}
+
+\begin{align}
+    \label{eq:rho_beta_num}
+    \rho_{\beta}&=\dfrac{100}{\dfrac{99}{7.24}+\dfrac{1}{11.23}}=\dfrac{100}{+}=
+\end{align}
+
+From the values of the density of each phase and the fraction of the phases, the volume fraction can be calculated using equation \eqref{eq:vol_beta}:
+
+\begin{align}
+    \label{eq:vol_beta_num}
+    V_{\beta}&=\dfrac{\dfrac{W_{\beta}}{\rho_{\beta}}}{\dfrac{W_{\alpha}}{\rho_{\alpha}}+\dfrac{W_{\beta}}{\rho_{\beta}}}=\dfrac{\dfrac{0.589474}{}}{\dfrac{0.410526}{den}+\dfrac{0.589474}{den}}
+\end{align}
+
+%\begin{figure}[h]
+%    \centering
+%    \includegraphics[width=1\textwidth]{graficas/diagrama.png}
+%    \caption{Phase diagram for lead-tin \\
+%    \textit{Source: Figure adapted from \citep{callister2010materials}}}
+%    \label{fig:diagrama}
+%\end{figure}
+
+%\begin{mdframed}
+The volumen fraction of the primary phase is 
+%\end{mdframed}
 
 \subsection{}
 A Pb–$25$ at$\%$ Sn alloy was slowly cooled from 380°C to 50°C. Ideally, Sn phase is expected to precipitate within Pb-phase grains, but in reality, a eutectic structure appeared. Assuming there were no experimental issues such as weighing errors, discuss the reason why this phenomenon occurred.
+
+%\begin{mdframed}
+Aca creo que deberia de ir la discusion del punto eutectico, pero ahorita no me acuerdo por que es que se forma esa cosa :c
+%\end{mdframed}
