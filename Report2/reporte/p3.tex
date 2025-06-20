@@ -3,6 +3,16 @@
 
 A specimen of pure aluminium was deformed and then heated to $500^{\circ}$C, resulting in recrystallization. Assuming the dislocation density of the deformed aluminium is $1015$ m$^{-2}$, calculate the radius of the recrystallization nucleus. Assume the nucleus is spherical.
 
+The critical nucleus size for nucleation can be calculated with the following equation \citet{rollett2017recrystallization}:
+\begin{align}
+    \label{eq:r_recrystallization}
+    r_{crit}&=\dfrac{2\gamma}{P};
+\end{align}
+where $P$ is the driving force for recrystalization and $\gamma$ is the grain boundary energy.
 
-
-Aca voy a usar lo del otro libro \citet{rollett2017recrystallization}
+The driving force $P$ for recistalization is provided by the dislocation density $\rho$ which results in a stored energy, and it is given by:
+\begin{align}
+    \label{eq:drivin_force}
+    P&=\alpha \rho Gb^2,
+\end{align}
+where $G$ is the shear modulous, $b$ is the magnitude of the Burgers vector and $\rho$ is the dislocation density. 
