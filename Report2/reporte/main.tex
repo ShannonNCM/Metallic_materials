@@ -54,8 +54,14 @@
 \newenvironment{solution}{\begin{proof}[Solution]}{\end{proof}}
 
 \usepackage{hyperref} % Uso de links
+%\usepackage{fixme} 
+%\FXRegisterAuthor{sc}{sha}{\color{purple}Sh} %para poder dejar comentarios 
+\usepackage{todonotes}
+\newcommand{\shnote}[1]{%
+  \todo[inline, color=violet!20]{\textbf{Sh:} #1}%
+}
 
- 
+
 \begin{document}
  
 % --------------------------------------------------------------
