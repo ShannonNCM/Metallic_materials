@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.5.26)  27 JUN 2025 19:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.5.26)  27 JUN 2025 19:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -732,7 +732,8 @@ File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 65.
  (c:/texlive/2025/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) (./main.aux)
+)
+No file main.aux.
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
@@ -753,7 +754,6 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
 LaTeX Font Info:    ... okay on input line 65.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 65.
 LaTeX Font Info:    ... okay on input line 65.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -819,7 +819,6 @@ LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
 )
 Package hyperref Info: Link coloring OFF on input line 65.
- (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
@@ -867,14 +866,35 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 4.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 4.
-<graficas/diagrama.png, id=36, 1227.08438pt x 901.11656pt>
+
+
+LaTeX Warning: Reference `fig:diagrama' on page 1 undefined on input line 6.
+
+<graficas/diagrama.png, id=7, 1227.08438pt x 901.11656pt>
 File: graficas/diagrama.png Graphic file (type png)
 <use graficas/diagrama.png>
 Package pdftex.def Info: graficas/diagrama.png  used on input line 15.
 (pdftex.def)             Requested size: 436.86871pt x 320.81299pt.
 
+Package natbib Warning: Citation `callister2010materials' on page 1 undefined on input line 17.
+
+
+Package natbib Warning: Citation `callister2010materials' on page 1 undefined on input line 17.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package natbib Warning: Citation `callister2010materials' on page 1 undefined on input line 28.
+
+
+LaTeX Warning: Reference `fig:diagrama' on page 1 undefined on input line 40.
+
+
+LaTeX Warning: Reference `eq:frac_alpha' on page 1 undefined on input line 40.
+
+
+LaTeX Warning: Reference `eq:frac_beta' on page 1 undefined on input line 40.
 
 
 
@@ -882,7 +902,29 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 {c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}]
 
+Package natbib Warning: Citation `callister2010materials' on page 2 undefined on input line 52.
+
+
+LaTeX Warning: Reference `eq:vol_beta' on page 2 undefined on input line 59.
+
+
+Package natbib Warning: Citation `callister2010materials' on page 2 undefined on input line 59.
+
+
+
 [2 <./graficas/diagrama.png>]
+
+LaTeX Warning: Reference `eq:rho_alpha' on page 3 undefined on input line 71.
+
+
+LaTeX Warning: Reference `eq:rho_beta' on page 3 undefined on input line 71.
+
+
+Package natbib Warning: Citation `callister2010materials' on page 3 undefined on input line 71.
+
+
+LaTeX Warning: Reference `eq:vol_beta' on page 3 undefined on input line 83.
+
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 99.
@@ -897,46 +939,122 @@ Package hyperref Info: bookmark level for unknown todo defaults to 0 on input li
 ) (./p2.tex
 
 [4{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
+
+Package natbib Warning: Citation `callister2010materials' on page 5 undefined on input line 7.
+
+
+LaTeX Warning: Reference `eq:deltagv' on page 5 undefined on input line 19.
+
+
+LaTeX Warning: Reference `eq:r01' on page 5 undefined on input line 19.
+
+
+LaTeX Warning: Reference `eq:nucleus_radius' on page 5 undefined on input line 35.
+
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 45.
 
+LaTeX Warning: Reference `eq:nucleus_radius' on page 5 undefined on input line 54.
+
+
+LaTeX Warning: Reference `fig:critical_radius' on page 5 undefined on input line 54.
+
+
 
 [5{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
-<graficas/critical_radius.pdf, id=119, 722.7pt x 433.62pt>
+<graficas/critical_radius.pdf, id=67, 722.7pt x 433.62pt>
 File: graficas/critical_radius.pdf Graphic file (type pdf)
 <use graficas/critical_radius.pdf>
 Package pdftex.def Info: graficas/critical_radius.pdf  used on input line 58.
 (pdftex.def)             Requested size: 469.75502pt x 281.85628pt.
+
+
+Package natbib Warning: Citation `mygit' on page 6 undefined on input line 60.
+
+
+Package natbib Warning: Citation `mygit' on page 6 undefined on input line 60.
+
 ) (./p3.tex
 
-[6 <./graficas/critical_radius.pdf>]) (./main.bbl
+[6 <./graficas/critical_radius.pdf>]
+
+Package natbib Warning: Citation `rollett2017recrystallization' on page 7 undefined on input line 6.
+
+
+Package natbib Warning: Citation `callister2010materials' on page 7 undefined on input line 22.
+
+./p3.tex:31: Undefined control sequence.
+<argument>  \label {eq:vector_magnitude} \abs 
+                                              {\mathbf {b}}&=\dfrac {a}{2}\l...
+l.31 \end{align}
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./p3.tex:31: Undefined control sequence.
+<argument>  \label {eq:vector_magnitude} \abs 
+                                              {\mathbf {b}}&=\dfrac {a}{2}\l...
+l.31 \end{align}
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+) (./main.bbl
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 47.
  (c:/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ))
 
-[7] (./main.aux)
+Package natbib Warning: There were undefined citations.
+
+
+
+[7] (./main.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-29>
  ***********
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6F0CAA013026663459F16FA586CCAC6A;301.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  6F0CAA013026663459F16FA586CCAC6A;301.
  ) 
 Here is how much of TeX's memory you used:
- 26971 strings out of 469590
- 495212 string characters out of 5474519
- 895676 words of memory out of 5000000
- 53270 multiletter control sequences out of 15000+600000
- 685785 words of font info for 93 fonts, out of 8000000 for 9000
+ 26963 strings out of 469590
+ 495082 string characters out of 5474519
+ 894676 words of memory out of 5000000
+ 53263 multiletter control sequences out of 15000+600000
+ 694613 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,19n,101p,679b,856s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,19n,101p,688b,856s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (7 pages, 309445 bytes).
+Output written on main.pdf (7 pages, 310387 bytes).
 PDF statistics:
- 258 PDF objects out of 1000 (max. 8388607)
- 183 compressed objects within 2 object streams
- 41 named destinations out of 1000 (max. 500000)
- 79 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 208 PDF objects out of 1000 (max. 8388607)
+ 136 compressed objects within 2 object streams
+ 43 named destinations out of 1000 (max. 500000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
