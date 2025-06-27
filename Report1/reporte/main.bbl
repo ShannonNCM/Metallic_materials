@@ -19,7 +19,7 @@ Cap~Morales, S\BPBI N.%
 \newblock
 \APACrefbtitle {GitHub Repository: Metallic Materials.} {Github repository: Metallic materials.}
 \newblock
-\APAChowpublished {\url{https://github.com/ShannonNCM/Metallic_materials.git}}.
+\APAChowpublished {\url{https://github.com/ShannonNCM/Metallic_materials/tree/main/Report1}}.
 \newblock
 \APACrefnote{Source code for data processing and visualization}
 \PrintBackRefs{\CurrentBib}

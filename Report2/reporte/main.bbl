@@ -26,6 +26,30 @@ Callister, W.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Cap~Morales%
+}{%
+Cap~Morales%
+}{%
+{\protect \APACyear {2025}}%
+}]{%
+mygit}
+\APACinsertmetastar {%
+mygit}%
+\begin{APACrefauthors}%
+Cap~Morales, S\BPBI N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025}{}{}.
+\newblock
+\APACrefbtitle {GitHub Repository: Metallic Materials.} {Github repository: Metallic materials.}
+\newblock
+\APAChowpublished {\url{https://github.com/ShannonNCM/Metallic_materials/tree/main/Report2}}.
+\newblock
+\APACrefnote{Source code for data processing and visualization}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Rollett%
 , Rohrer%
 \BCBL {}\ \BBA {} Humphreys%
