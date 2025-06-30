@@ -3,23 +3,24 @@
 
 \textbf{A specimen of pure aluminium was deformed and then heated to $500^{\circ}$C, resulting in recrystallization. Assuming the dislocation density of the deformed aluminium is $1015$ m$^{-2}$, calculate the radius of the recrystallization nucleus. Assume the nucleus is spherical.}
 
-The critical nucleus size for nucleation can be calculated with the following equation \citet{rollett2017recrystallization}:
+The critical nucleus size for nucleation can be calculated with the following equation:
 \begin{align}
     \label{eq:r_recrystallization}
     r_{crit}&=\dfrac{2\gamma}{P},
 \end{align}
-where $P$ is the driving force for recrystalization and $\gamma$ is the grain boundary energy.
+where $P$ is the driving force for recrystalization and $\gamma$ is the grain boundary energy \citep{rollett2017recrystallization}.
 
 The driving force $P$ for recistalization is provided by the dislocation density $\rho$ which results in a stored energy, and it is given by:
 \begin{align}
     \label{eq:drivin_force}
     P&=\alpha \rho Gb^2,
 \end{align}
-where $\alpha$ is a constant of value $0.5$, $G$ is the shear modulous, $b$ is the magnitude of the Burgers vector and $\rho$ is the dislocation density.
+where $\alpha$ is a constant of value $0.5$, $G$ is the shear modulous, $b$ is the magnitude of the Burgers vector and $\rho$ is the dislocation density \citep{rollett2017recrystallization}.
 
-The sheer modulous valu
+The sheer modulous value
+\shnote{me falta revisar lo del sheer modulous, creo que deberia de ser el valor para la temeratura a la que se esta trabajando}
 
-The Buergers vector magnitude can be calculated from the Burgers vector, which for an FCC cell is given by \citet{callister2010materials}:
+The Buergers vector magnitude can be calculated from the Burgers vector, which for an FCC cell is given by \citep{callister2010materials}:
 \begin{align}
     \label{eq:fcc_vector}
     \mathbf{b}(\text{FCC})&=\dfrac{a}{2}\langle uvw\rangle=\dfrac{a}{2}\langle110\rangle.
@@ -27,7 +28,20 @@ The Buergers vector magnitude can be calculated from the Burgers vector, which f
 The magnitude of the vector can be calculated using the following equation:
 \begin{align}
     \label{eq:vector_magnitude}
-    \abs{\mathbf{b}}&=\dfrac{a}{2}\left(u^{2}+v^{2}+w^{2}\right)^{1/2}=\dfrac{a}{2}\left(1^{2}+1^{2}+0^{2}\right)^{1/2}
+    \left|\mathbf{b}\right|&=\dfrac{a}{2}\left(u^{2}+v^{2}+w^{2}\right)^{1/2}=\dfrac{a}{2}\left(1^{2}+1^{2}+0^{2}\right)^{1/2}=\dfrac{a}{\sqrt{2}},
 \end{align}
+where $a$ is the lattice constant, and for Aluminum its values is: $3.3$ \citep{callister2010materials}, whch makes:
+\begin{align}
+    \label{eq:vector_magnitude01}
+    \left|\mathbf{b}\right|&=\dfrac{3.3}{\sqrt{2}}=.
+\end{align}
+
+Using the values of $\alpha$, $\rho$, $G$, and $b$ from equations the value for the driving force can be calculated:
+\begin{align}
+    \label{eq:drivin_force}
+    P&=\left(0.5\right)\left(1015\right)G\left(b\right)^2=
+\end{align}
+
+
 
 \shnote{esta parte me falta lo del valor de gamma que para esta ecuacion es la grain boundary energy, pero no se de donde sacarla (o no he encontrado donde estaria :c)}
