@@ -1,47 +1,62 @@
 \newpage
 \section{}
 
-\textbf{A specimen of pure aluminium was deformed and then heated to $500^{\circ}$C, resulting in recrystallization. Assuming the dislocation density of the deformed aluminium is $1015$ m$^{-2}$, calculate the radius of the recrystallization nucleus. Assume the nucleus is spherical.}
+\textbf{A specimen of pure aluminium was deformed and then heated to $500^{\circ}$C, resulting in recrystallization. Assuming the dislocation density of the deformed aluminium is $10^{15}$ m$^{-2}$, calculate the radius of the recrystallization nucleus. Assume the nucleus is spherical.}
 
-The critical nucleus size for nucleation can be calculated with the following equation:
+The critical nucleus size for recrystallization can be calculated with the following equation:
 \begin{align}
     \label{eq:r_recrystallization}
     r_{crit}&=\dfrac{2\gamma}{P},
 \end{align}
-where $P$ is the driving force for recrystalization and $\gamma$ is the grain boundary energy \citep{rollett2017recrystallization}.
+where $P$ is the driving force for recrystallization in Pa and $\gamma$ is the grain boundary energy in J/m$^2$ \citep[p.~283]{rollett2017recrystallization}.
 
-The driving force $P$ for recistalization is provided by the dislocation density $\rho$ which results in a stored energy, and it is given by:
+The driving force $P$ for recrystallization is provided by the dislocation density $\rho$ which results in a stored energy, and it is given by:
 \begin{align}
     \label{eq:drivin_force}
     P&=\alpha \rho Gb^2,
 \end{align}
-where $\alpha$ is a constant of value $0.5$, $G$ is the shear modulous, $b$ is the magnitude of the Burgers vector and $\rho$ is the dislocation density \citep{rollett2017recrystallization}.
+where $\alpha$ is a constant of value $0.5$, $G$ is the shear modulous in Pa, $b$ is the magnitude of the Burgers vector in m and $\rho$ is the dislocation density in m$^{-2}$ \citep[p.~249]{rollett2017recrystallization}.
 
-The sheer modulous value
-\shnote{me falta revisar lo del sheer modulous, creo que deberia de ser el valor para la temeratura a la que se esta trabajando}
+The sheer modulous ($G$) value for Al is $25$ GPa as it is shown in table 6.1 of \citet[p.~157]{callister2010materials}.
+%\shnote{me falta revisar lo del sheer modulous, creo que deberia de ser el valor para la temeratura a la que se esta trabajando}
 
-The Buergers vector magnitude can be calculated from the Burgers vector, which for an FCC cell is given by \citep{callister2010materials}:
+The Buergers vector magnitude can be calculated from the Burgers vector, which for an FCC cell is given by:
 \begin{align}
     \label{eq:fcc_vector}
-    \mathbf{b}(\text{FCC})&=\dfrac{a}{2}\langle uvw\rangle=\dfrac{a}{2}\langle110\rangle.
+    \mathbf{b}(\text{FCC})&=\dfrac{a}{2}\langle uvw\rangle=\dfrac{a}{2}\langle110\rangle
 \end{align}
+\citep[p.~204]{callister2010materials}.
+
 The magnitude of the vector can be calculated using the following equation:
 \begin{align}
     \label{eq:vector_magnitude}
     \left|\mathbf{b}\right|&=\dfrac{a}{2}\left(u^{2}+v^{2}+w^{2}\right)^{1/2}=\dfrac{a}{2}\left(1^{2}+1^{2}+0^{2}\right)^{1/2}=\dfrac{a}{\sqrt{2}},
 \end{align}
-where $a$ is the lattice constant, and for Aluminum its values is: $3.3$ \citep{callister2010materials}, whch makes:
+where $a$ is the lattice constant, and for Aluminum its value is: $0.40494$ nm \citep{Xu2011}, which gives:
 \begin{align}
     \label{eq:vector_magnitude01}
-    \left|\mathbf{b}\right|&=\dfrac{3.3}{\sqrt{2}}=.
+    \left|\mathbf{b}\right|&=\dfrac{0.40494}{\sqrt{2}}=0.28633582.
 \end{align}
 
-Using the values of $\alpha$, $\rho$, $G$, and $b$ from equations the value for the driving force can be calculated:
+Using the values of $\alpha$, $\rho$, $G$, and $b$, the value for the driving force can be calculated, using equation \ref{eq:drivin_force}:
 \begin{align}
-    \label{eq:drivin_force}
-    P&=\left(0.5\right)\left(1015\right)G\left(b\right)^2=
+    \label{eq:drivin_force_num}
+    \begin{split}
+        P&=\left(0.5\right)\left(10^{15}\right)\left(25\times10^9\right)\left(0.28633582\times10^{-9}\right)^2=10248525.225 \\
+        P&\approx 10.2 \text{MPa}
+    \end{split}
 \end{align}
 
+To calculate the critical nucleus size for recrystalization equation \ref{eq:r_recrystallization} is used, with the value of driving force ($P$) and the value of the grain boundary energy of $375$ mJ/m$^2$ \citep[p.~125]{rollett2017recrystallization}:
+\begin{align}
+    \label{eq:recrystallization_num}
+    \begin{split}
+        r_{crit}&=\dfrac{2*0.375}{10248525.225} = 7.318126\times10^{-8} \text{m} \\
+        r_{crit}&\approx 73.1 \text{nm}
+    \end{split}
+\end{align}
 
-
-\shnote{esta parte me falta lo del valor de gamma que para esta ecuacion es la grain boundary energy, pero no se de donde sacarla (o no he encontrado donde estaria :c)}
+\begin{mdframed}
+    The nucleus size of recrystallization for aluminum is $73.1$ nm.
+\end{mdframed}
+%\shnote{esta parte me falta lo del valor de gamma que para esta ecuacion es la grain boundary energy, pero no se de donde sacarla (o no he encontrado donde estaria :c)}

@@ -75,4 +75,32 @@ Rollett, A.%
 \APACaddressPublisher{}{Elsevier}.
 \PrintBackRefs{\CurrentBib}
 
+\bibitem [\protect \citeauthoryear {%
+Xu%
+, Yamazaki%
+\BCBL {}\ \BBA {} Villars%
+}{%
+Xu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2011}}%
+}]{%
+Xu2011}
+\APACinsertmetastar {%
+Xu2011}%
+\begin{APACrefauthors}%
+Xu, Y.%
+, Yamazaki, M.%
+\BCBL {}\ \BBA {} Villars, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Inorganic Materials Database for Exploring the Nature of Material} {Inorganic materials database for exploring the nature of material}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Japanese Journal of Applied Physics}{50}{11S}{11RH02}.
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1143/jjap.50.11rh02} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
 \end{thebibliography}
