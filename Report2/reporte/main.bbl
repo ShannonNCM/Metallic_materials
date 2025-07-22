@@ -50,6 +50,31 @@ Cap~Morales, S\BPBI N.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Porter%
+\ \BBA {} Easterling%
+}{%
+Porter%
+\ \BBA {} Easterling%
+}{%
+{\protect \APACyear {2009}}%
+}]{%
+porter2009phase}
+\APACinsertmetastar {%
+porter2009phase}%
+\begin{APACrefauthors}%
+Porter, D.%
+\BCBT {}\ \BBA {} Easterling, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2009}.
+\newblock
+\APACrefbtitle {Phase Transformations in Metals and Alloys (Revised Reprint)} {Phase transformations in metals and alloys (revised reprint)}.
+\newblock
+\APACaddressPublisher{}{CRC Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Rollett%
 , Rohrer%
 \BCBL {}\ \BBA {} Humphreys%

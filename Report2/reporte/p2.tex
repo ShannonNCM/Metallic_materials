@@ -1,8 +1,7 @@
 \newpage
 \section{}
 
-\subsection{}
-\textbf{Pure water was quasi-statically cooled from room temperature to $-5^{\circ}$C under $1$ atm pressure. Calculate the critical nucleus radius under these conditions. Assume the nucleus is spherical, the latent heat is $6$ kJ/mol, the interfacial energy between ice and water is $30$ mJ/m$^2$, and the density of ice is $1$ g/cm$^3$.}
+\subsection{Pure water was quasi-statically cooled from room temperature to $-5^{\circ}$C under $1$ atm pressure. Calculate the critical nucleus radius under these conditions. Assume the nucleus is spherical, the latent heat is $6$ kJ/mol, the interfacial energy between ice and water is $30$ mJ/m$^2$, and the density of ice is $1$ g/cm$^3$.}
 
 The critical nucleus radius can be calculated using the following equation: 
 \begin{align}
@@ -43,20 +42,20 @@ Using equation \ref{eq:nucleus_radius}, the critical nucleus radius can be calcu
 The critical nucleus radius for water quasi-statically cooled from room temperature to $-5^{\circ}$ is 9.84 nm.
 \end{mdframed}
 
-%\shnote{tengo que arreglar lo del calculo, porque el calor latente deberia de estar en kj/m3 y yo lo tengo en J/m2 asi que algo tengo que hacerle con la densidad pero no se que? :c ya se, las dimensionales no estan bien, eso es lo que tengo que arreglar}
-
-\subsection{}
-\textbf{Explain how the critical nucleus radius changes if the pure water is
+\subsection{Explain how the critical nucleus radius changes if the pure water is
 further cooled, including the reason.}
 
-To visualize the changes of the radius with further cooling water, the critical radius was calculated for different cooling temperatures, with a range of cooling temperatures of $-5$ to $-200^{\circ}$C, using equation \ref{eq:nucleus_radius}. The results were plotted in a graph, which is shown in figure \ref{fig:critical_radius}:
+To visualize the changes of the radius with further cooling water, the critical radius was calculated for different cooling temperatures, with a range of cooling temperatures of $-5$ to $-270^{\circ}$C (near absolute zero temperature), using equation \ref{eq:nucleus_radius}. The results were plotted in a graph, which is shown in figure \ref{fig:critical_radius}:
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=1\textwidth]{graficas/critical_radius.pdf}
-    \caption{Critical nucleus radius as a function of temperature for water cooled in a range of temperature from $-5$ to $-200^{\circ}$ C. \\
+    \caption{Critical nucleus radius as a function of temperature for water cooled in a range of temperature from $-5$ to $-270^{\circ}$ C. \\
     \textit{Source: Visualization by the author (code available at \citet{mygit})}}
     \label{fig:critical_radius}
 \end{figure}
 
-\shnote{me falta explicar por que el radio cambia de esta manera}
+Figure \ref{fig:critical_radius} shows the nucleus radius as a function of temperature, it can be seen that as the critical nucleus radius descends as does the temperature. This behavior is expected from equation \ref{eq:nucleus_radius}, where the critical radius is proportionally inverse to the temperature difference of the cooling temperature and the melting temperature. As the cooling temperature is lower, the difference between the the melting temperature and the cooling temperature increases, and the critical radius becomes smaller.
+The decrease in the critical radius continues reaching a nearly asymptotic behavior that starts around $-200^{\circ}$ C  temperature, with an approximate value for the radius of $0.2$ nm, as it get closer to absolute temperature. 
+
+%\shnote{me falta explicar por que el radio cambia de esta manera, segun yo como en la ecuacion es inverso al delta t entonces deberia de disminuir el radio conforme el delta t se hace mas grande, es decir al enfriar hasta temperaturas mas bajas}

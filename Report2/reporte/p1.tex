@@ -1,7 +1,6 @@
 \section{}
 
-\subsection{}
-\textbf{A Pb–$60$ at\% Sn alloy was slowly cooled from $380^{\circ}$C to $50^{\circ}$C. Calculate the volume fraction of the primary phase at $50^{\circ}$C.}
+\subsection{A Pb–$60$ at\% Sn alloy was slowly cooled from $380^{\circ}$C to $50^{\circ}$C. Calculate the volume fraction of the primary phase at $50^{\circ}$C.}
 
 The phase diagram for an alloy of Pb and Sn is shown in figure \ref{fig:diagrama}. The temperature and composition are located in the diagram, the composition $C_0$ corresponds to a $60$\% of Sn and $40$\% of Pb. From the figure, it can be seen that for a temperature of $50^{\circ}$C there is presence of two phases, $\alpha$ and $\beta$. From the isothermal of the temperature it is possible to obtain the values of the compositions for each phase by intersecting the ishothermal llinea with the baoundaries of the phase diagram, which gives the following results:
 
@@ -28,7 +27,7 @@ where $W_{\alpha}$ is the fraction of the $\alpha$ phase, $W_{\beta}$ is the fra
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.93\textwidth]{graficas/diagrama.png}
+    \includegraphics[width=0.9\textwidth]{graficas/diagrama.png}
     \caption{Phase diagram for lead-tin with the initial composition $C_0$, and phase compositions $C_{\alpha}$ and $C_{\beta}$.\\
     \textit{Source: Figure adapted from \citet[p.~300]{callister2010materials}}}
     \label{fig:diagrama}
@@ -78,6 +77,7 @@ Using equations \eqref{eq:rho_alpha} and \eqref{eq:rho_beta}, with the values fo
     \rho_{\beta}&=\dfrac{100}{\dfrac{99}{7.24}+\dfrac{1}{11.23}}=7.265815
 \end{align}
 
+\newpage
 From the values of the density of each phase and the fraction of the phases, the volume fraction can be calculated using equation \eqref{eq:vol_beta}:
 
 \begin{align}
@@ -89,10 +89,23 @@ From the values of the density of each phase and the fraction of the phases, the
 The volumen fraction of the primary phase is 0.68.
 \end{mdframed}
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\newpage
-\subsection{}
-A Pb–$25$ at$\%$ Sn alloy was slowly cooled from 380°C to 50°C. Ideally, Sn phase is expected to precipitate within Pb-phase grains, but in reality, a eutectic structure appeared. Assuming there were no experimental issues such as weighing errors, discuss the reason why this phenomenon occurred.
+\subsection{A Pb–$25$ at$\%$ Sn alloy was slowly cooled from 380°C to 50°C. Ideally, Sn phase is expected to precipitate within Pb-phase grains, but in reality, a eutectic structure appeared. Assuming there were no experimental issues such as weighing errors, discuss the reason why this phenomenon occurred.}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{graficas/diagrama01.png}
+    \caption{Phase diagram for lead-tin for Pb $25$ at\% Sn alloy.\\
+    \textit{Source: Figure adapted from \citet[p.~300]{callister2010materials}}}
+    \label{fig:diagrama01}
+\end{figure}
+
+From figure \ref{fig:diagrama01}, it can be seen that for a concentration of 25\% Sn, the mixture is expected to go from a liquid mixture of both Sn and Pb, to a solid-liquid phase, where the $\alpha$ phase which is a solid phase of Pb with Sn as solute, appears along with the liquid phase. Then as the temperature decreases, it reaches the eutectic temperature, which is composed of both $\alpha$ and $\beta$ phases, which correspond to a solid phase rich in Pb with Sn as solute, and a solid solution that is rich in Sn with Pb as solute, respectively. 
+
+However, in this case, there was no formation of the alpha phase during the process, which means that the mixture remained as a liquid without the formation of any solid phase until it reached an eutectic structure. This lack of formation of solids of the alpha phase could happen due to the undercooling of the mixture. In undercooling, a liquid is cooled below its equilibrium melting temperature without solidification \citep[p.~189]{porter2009phase}; which could explain the lack of formation of crystals of the $\alpha$ phase during the cooling process. 
 
 %\begin{mdframed}
-\shnote{Aca creo que deberia de ir la discusion del punto eutectico, pero ahorita no me acuerdo por que es que se forma esa cosa :c}
+%\shnote{ya vi, segun esa composicion, a la hora de enfriar no deberia de caer a la isoterma eutectica deberia de bajar hacia la fase alfa directamente y luego de ahi ir a la region de fase alfa+beta, pero no pasa eso, y la verdad no se explicar por que todavia  :c}
 %\end{mdframed}
